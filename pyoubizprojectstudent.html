@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/elements.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/chip.css">
     <!-- User style -->
     <link rel="stylesheet" href="css/custom.css">
     <script src="js/modernizr-2.8.3.min.js"></script>
@@ -252,17 +253,16 @@
         <!-- Main content area start -->
         <div class="content">
             <!-- Breadcrumb area start -->
-<!--
-            <div class="breadcrumb-area breadcrumb-bg-img">
+            <div class="breadcrumb-area gray-bg">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="breadcrumb-content">
                                 <div class="breadcrumb-text-wrapper">
-                                    <h2 class="page-name">Blog</h2>
-                                    <ul class="breadcrumb-list">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li>Blog</li>
+                                    <h2 class="page-name">Pyoü Project</h2>
+                                    <ul>
+                                        <li><a href="pyoustudentprojects.html">Pyoü Projects</a></li>
+                                        <li><a href="pyoustudentchallenges.html">Pyoü Challenge</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -270,65 +270,81 @@
                     </div>
                 </div>
             </div>
--->
             <!-- Breadcrumb area end -->
-            <!-- Theme standard row start for blog -->
-            <!-- Contact From Start -->
-            <div class="xboot-standard-row contact-section contact-style-2">
+            <!-- Single Project area -->
+            <div class="single-project-area xboot-standard-row">
                 <div class="container">
+                        <h2 class="area-title">Marketing Research for ABC Co.</h2>
                     <div class="row">
-                        <div class="col-md-8 col-md-push-2">
-                            <div class="section-title text-left">
-                                <h2 class="area-title">Pyoü Biz</h2>
-                                <p>Before we start, let us know some where you come from!</p>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="single-project-thumb-wrapper">
+<!--
+                                <a href="img/portfolio/single/2.jpg" data-lightbox="img-gallery"><img src="img/portfolio/single/2.jpg" alt=""></a>
+                                <a href="img/portfolio/single/1.jpg" data-lightbox="img-gallery"><img src="img/portfolio/single/1.jpg" alt=""></a>
+                                <a href="img/portfolio/single/3.jpg" data-lightbox="img-gallery"><img src="img/portfolio/single/3.jpg" alt=""></a>
+-->                             <img id="blah" src="img/portfolio/box/research.jpg" alt="your image" />
+
                             </div>
-                            <form id="xboot-contact-form" action="php/mail.php" method="POST" name="xboot_message_form" class="contcat-form">
-                                <div class="form-head">
-                                    <div class="single-input">
-                                        <input type="text" name="name" placeholder="Name" required>
-                                    </div>
-                                </div>
-                                <div class="form-head">
-                                    <div class="single-input">
-                                        <input type="text" name="company" placeholder="Company">
-                                    </div>
-                                    <div class="single-input">
-                                        <input type="text" name="designation" placeholder="Designation" required>
-                                    </div>
-                                </div>
-                                <div class="form-head">
-                                    <div class="single-input">
-                                        <input type="text" name="email" placeholder="Email">
-                                    </div>
-                                </div>
-                                <div class="form-head">
-                                    <div class="single-input">
-                                        <input type="password" name="password" placeholder="Password" required>
-                                    </div>
-                                    <div class="single-input">
-                                        <input type="password" name="cpassword" placeholder="Confirm Password" required>
-                                    </div>
-                                </div>
-                                
-<!--                                <button class="button-boxed" type="submit" value="submit">Let's Get Started! <i class="ti-arrow-right"></i></button>-->
-                                
-                                
-                                <p class="xboot-send-message"></p>
-                            </form>
-                            <a href="pyoubizstart.html">
-                                <button class="button-boxed">Let's Get Started! <i class="ti-arrow-right"></i></button>
-                            </a>
-                            <div style="font-style: italic; margin-top:30px; margin-bottom:20px;"> Already have an account? </div>
-                            <a href="pyoulogin.html">
-                                <button class="button-boxed2">Login Here<i class="ti-arrow-right"></i></button>
-                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-12">
+                            <div class="project-meta-wrapper">
+                                <h4 class="widget-title">Project info</h4>
+                                <ul class="single-portfolio-meta">
+                                    <li><span>Client:</span>ABC Company</li>
+                                    <li><span>Start Date:</span>1 March 2018</li>
+                                    <li><span>End Date:</span>30 June 2018</li>
+                                    <li><span>Resume:</span>Required</li>
+                                    <li><span>Cover Letter:</span>Optional</li>
+                                    <li><span>Tags:</span><br/>                                    
+                                        <ul class="tags">
+                                        <li><a href="#" class="tag">Technology</a></li>
+                                        <li><a href="#" class="tag">Market Research</a></li>
+                                        </ul>  
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                         
+                        <div class="col-lg-3 col-md-4 col-sm-6">
+                            <div class="project-meta-wrapper">
+                                <h4 class="widget-title">Project Incentives</h4>
+                                <ul class="single-portfolio-meta">
+                                    <li><span>Allowance:</span>$1500</li>
+                                    <li>Guaranteed Internship</li>
+                                </ul>
+                            </div>
+                            <div style="margin-top:10px;">
+                                <a href="index.html">
+                                    <button class="button-boxed">Apply! <i class="ti-arrow-right"></i></button>
+                                </a>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-12 col-md-8 col-sm-12">
+                            <div class="single-project-description">
+                                <h2 class="single-project-title">Project Description</h2>
+                                <p>Write a short description of the project</p>
+                                <p>For example, this is a project posted to all tertiary students. ABC company is looking for the best market research project on the blockchain currency industry. Students need to come up with a 12 page proposal detailing the following: 1. Introduction 2. Methodology 3. Research 4. Conclusion. The team should do a full researh on how blockchain affects different industry and report to ABC on how ABC should use blockchain technology in its business processes. If you require more information on ABC, please go to <a href="www.abc.com">www.abc.com</a> for more information.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-xs-12">
+<!--
+                                    <div class="post-navigation-wrapper">
+                                        <a href="#" class="post-navigation previous-post"><i class="fa fa-angle-left"></i>Previous Project</a>
+                                        <a href="index.html" class="button-inner-project"><i class="ti-view-grid"></i></a>
+                                        <a href="#" class="post-navigation next-post">Next Project<i class="fa fa-angle-right"></i></a>
+                                    </div>
+-->
+                                
+                            </div>
+                        </div>
                     </div>
                 </div>
+                
             </div>
-            <!-- Contact From End -->
-        <!-- Main content area end -->
+            
+            <!-- Single Project area end -->
+            
         <!-- Footer area start -->
         <footer class="footer-area">
             <!-- start footer top -->

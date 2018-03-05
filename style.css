@@ -2713,3 +2713,29 @@ blockquote {
   font-weight:600;
 }
 
+
+.button-boxed2 {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    display: inline-block;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    height: 45px;
+    letter-spacing: 1px;
+    line-height: 45px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.button-boxed2:hover {
+    background: black;
+    border: 1px solid transparent;
+    color: #fff;
+}
+.button-hovered2 {
+    background: black;
+    border: 1px solid transparent;
+    color: #fff;
+}
